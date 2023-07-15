@@ -1,11 +1,4 @@
-require('dotenv').config();
-const {buildConnectionOptions, createConnection} = require('./config/dbConfig');
+const renderMenu = require('./lib/questions');
 
-async function main() {
-    const connection = await(createConnection(buildConnectionOptions()));
 
-    const [departments] = await connection.execute('SELECT * FROM departments;', []);
-    console.table(departments);
-};
-
-main();
+renderMenu();
