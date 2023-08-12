@@ -40,3 +40,5 @@ To install dependencies run command 'npm i'
 ![](./Images/Screenshot%202023-08-12%20170711.png)
 
 ## Video Walkthrough
+[Untitled_ Aug 12, 2023 4_53 PM.webm](https://github.com/rtm713/EmployeeTrackerSQL/assets/127454251/35693bc7-76a8-4d96-83fa-655d98426075)
+
